@@ -1,0 +1,48 @@
+.top{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #68C6FF;
+	color: #ffffff;
+	background-color: #68C6FF;
+	padding: 10px;
+}
+.banner{
+	color: #ffffff;
+	background-color: #ca0000;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+div.banner a{
+	color: #000000;
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /*Safari*/
+  position: sticky;
+  top: 0;
+}
+ul.navbar li {
+  float: left;
+}
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.navbar li a:hover {
+  background-color: #111000;
+  color: white;
+  text-decoration: none;
+}
+.active {
+  background-color: #68C6FF;
+  text-decoration: none;
+}
